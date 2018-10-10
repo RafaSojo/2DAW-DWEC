@@ -4,3 +4,10 @@
     padding: 1rem;
     border-radius: 9px;
 }
+
+.informationBox {
+  border: 3px solid #000;
+  width: 300px;
+  min-height: 150px;
+  padding: 20px 15px;
+}

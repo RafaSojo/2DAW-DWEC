@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 18: Calendario</title>
+    <script src="codigo.js"></script>
+    <script src="calendar.js"></script>
+    <script src="calendar-es.js"></script>
+    <script src="calendar-setup.js"></script>
+    <link rel="stylesheet" type="text/css" href="calendar-blue.css">
+</head>
+<body>
+    <h1>Autor: Mario Navarro Madrid</h1>
+    <p>Ejercicio 18: Mejorar el calendario creado añadiendo las opciones necesarias para que muestre el siguiente aspecto:</p>
+    <ol>
+        <li>Que no se muestre el número de la semana en el calendario (pista: weekNumbers)</li>
+        <li>Modificar el formato en el que se muestra la fecha seleccionada. El formato original es 21 / 08 / 2007 (indicado como %d / %m / %Y). El formato deseado es Martes, 21 de Agosto de 2007 (pistas: %A, %B)</li>
+        <li>El nuevo formato de fecha es mucho más agradable para los usuarios, pero más incómodo para los scripts que tienen que manejarlo. Afortunadamente, el calendario dispone de la posibilidad de guardar dos valores: un valor para mostrar a los usuarios y otro valor para que lo procesen los scripts. Cuando el usuario seleccione una fecha, la fecha con el formato original se debe almacenar en un campo oculto de formulario y el otro formato más largo debe mostrar al usuario en un elemento de tipo <span> (pistas: displayArea, daFormat)</li>
+    </ol>
+    <input type="text" name="date" id="fecha" readonly="readonly" />
+    <button id="selector">Selecciona fecha</button>
+    <span id="fechaf"></span>
+</body>
+</html>

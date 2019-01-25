@@ -30,3 +30,24 @@ Cada ejercicio contará con 3 ficheros:
 Se tiene que usar la plantilla que está en la carpeta 'plantilla-ejercicios'
 
 HAY QUE ACTUALIZAR EL index.html CUANDO SE SUBE UN EJERCICIO NUEVO!!!
+
+# Buscaminas
+Para tener un sitio donde estén todos los enlaces de los buscaminas se ha creado el fichero buscaminas.html.
+En éste index ponemos todos los enlaces a los buscaminas, tanto al .io como al código fuente.
+
+Para añadir vuestros enlaces es editando el fichero añadiendo un article por casa uno.
+
+```
+            <article>
+                <header>Marcos Gallardo</header>
+                <a href="ENLACE_IO" target="_blank" class="enlaceDemo">
+                    <div id="enlaceTemas">Demo</div>
+                </a>
+                <a href="ENLACE_GITHUB" target="_blank" class="enlaceCodigoFuente">
+                    <div id="enlaceTemas">Código fuente</div>
+                </a>
+            </article>
+```
+
+Para añadir el vuestro, crear una rama a partir de la de desarrollo, lo añadís y hacéis un pull requests.
+

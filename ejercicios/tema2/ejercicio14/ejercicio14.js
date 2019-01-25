@@ -1,3 +1,6 @@
+/*
+    @author Angelo Barbara
+*/
 {
     document.addEventListener("DOMContentLoaded", init);
 

@@ -31,8 +31,8 @@ Se tiene que usar la plantilla que está en la carpeta 'plantilla-ejercicios'
 
 HAY QUE ACTUALIZAR EL index.html CUANDO SE SUBE UN EJERCICIO NUEVO!!!
 
-# Buscaminas
-Para tener un sitio donde estén todos los enlaces de los buscaminas se ha creado el fichero buscaminas.html.
+# Buscaminas y presentación animaciones con jQuery
+Para tener un sitio donde estén todos los enlaces de los buscaminas se ha creado el fichero buscaminas.html. Para la presentación de animaciones en jQuery se ha creado el fichero presentacion-efectos.html.
 En éste index ponemos todos los enlaces a los buscaminas, tanto al .io como al código fuente.
 
 Para añadir vuestros enlaces es editando el fichero añadiendo un article por casa uno.

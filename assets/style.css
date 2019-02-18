@@ -1,3 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    font-family: 'Roboto';
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+}
+
+/* ================== MAIN PRINCIPAL ==================== */
+
+    .principal>main>h1{
+        text-align: center;
+        background-color: orange;
+        margin:auto;
+        padding: 20px;
+    }
+
+    .principal>main>h3{
+        text-align: center;
+        background-color: rgb(160, 160, 160);
+        margin:auto;
+        padding: 10px;
+        margin-bottom: 10px;
+        /* margin-top: 10px; */
+    }
+
+    .principal>main>ul>li>a>span{
+        text-align: center;
+        background-color: rgb(248, 107, 107);
+        /* margin:auto; */
+        padding: 10px;
+        color: black;
+        font-weight: bold;
+    }
+    .principal>main>ul>li{
+        margin: auto;
+        padding: 15px;
+        width: 100%;
+    }
+
+    .listadoEjercicios>li{
+        width: 25vw !important;
+        /* max-width: ; */
+    }
+
+    .principal>main>ul{
+        text-align: center;
+        display: flex; 
+        flex-wrap: wrap; 
+        justify-content: space-between; 
+    }
+
+/* ==================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .enunciado{
     /* Estilo temporal */
     background-color: #d8d8d8;
@@ -12,15 +84,8 @@
   padding: 20px 15px;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-* {
-    font-family: 'Roboto';
-    list-style: none;
-    text-decoration: none;
-    /*margin: 0;
-    //padding: 0;*/
-}
+
 
 
 #enunciado {
@@ -56,22 +121,26 @@
     padding: 10px;
     margin-bottom: 10px;
 }
+
+
 .listado>article {
     /* display: inline-block; */
     background-color: #91c8f8;
     border-radius: 4px;
     font-family: sans-serif;
-    font-size: 3em;
+    font-size: 2em;
+    text-align: center;
     /* width: 200px;
     height: 150px; */
 }
 
 .listado>article.enlaceDemo{
   background-color: #2799fd;
-  
-
 }
-
+.listado>article>a>div:hover{
+    background-color: #9dcdf7;
+  }
+  
 
 .listado>article>a {
     text-decoration: none;
@@ -92,7 +161,7 @@
 
 .listado>article>a>div#enlaceTemas {
     padding: 10px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .listado>article>a.enlaceDemo>div#enlaceTemas {
@@ -104,8 +173,12 @@ main:not(.listado) {
     min-height: 90vh;
 }
 
-.listado{
+main{
+    background-color: #d8e0e4;
 
+}
+
+.listado{
     display: flex; 
     flex-wrap: wrap; 
     justify-content: space-between; 
@@ -113,8 +186,25 @@ main:not(.listado) {
 
 .listado>article {
     margin: 50px auto 0px;
-
+    width: 100%;
 }
+
+
+@media (min-width: 768px){ 
+    .listado>article {
+        width: 30vw;
+    }
+
+    
+    .listadoEjercicios>li{
+        width: 20vw !important;
+    }
+
+    
+
+ }
+
+
 
 header>h1 {
     margin: 15px;
